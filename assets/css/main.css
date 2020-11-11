@@ -77,6 +77,10 @@ input, select, textarea {
 	width: 43em;
 }
 
+.header-image {
+	margin-bottom: 2em;
+}
+
 .gif__vislit {
 	height: 15em;
 }
@@ -3644,7 +3648,7 @@ input, select, textarea {
 
 	#header {
 		background-color: #47958f;
-		color: #d1e5f9;
+		color: whitesmoke;
 		padding: 4.5em 2em 2.5em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
