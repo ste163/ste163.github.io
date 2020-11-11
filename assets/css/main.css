@@ -2690,7 +2690,7 @@ input, select, textarea {
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: center;
+		text-align: left;
 	}
 
 	header p {
@@ -2728,7 +2728,7 @@ input, select, textarea {
 
 	header.major {
 		margin: 0 0 2.5em 0;
-		text-align: center;
+		text-align: left;
 	}
 
 		header.major:after {
