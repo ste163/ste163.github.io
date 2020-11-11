@@ -72,17 +72,39 @@ input, select, textarea {
 }
 
 /* CUSTOM */
-.p__left-aligned {
-	text-align: left;
+
+.header-demo {
+	width: 43em;
 }
 
-.gif {
-	display: block;
-	margin-right: 3em;
+.header-image {
+	margin-bottom: 2em;
 }
 
 .gif__vislit {
 	height: 15em;
+}
+
+.three-column {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: safe;
+}
+
+.first-column {
+	margin-right: 1em;
+}
+
+.second-column {
+	margin-right: 1em;
+}
+
+.third-column {
+	margin-right: 1em;
+}
+
+.column {
+	flex-basis: 15em;
 }
 
 /* Basic */
@@ -331,7 +353,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #76cdc7;
+			color: #47958f;
 		}
 
 	strong, b {
@@ -1982,7 +2004,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			box-shadow: none;
-			background-color: #76cdc7;
+			background-color: #47958f;
 			color: #ffffff !important;
 		}
 
@@ -2187,8 +2209,8 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #76cdc7;
-			box-shadow: 0 0 0 1px #76cdc7;
+			border-color: #47958f;
+			box-shadow: 0 0 0 1px #47958f;
 		}
 
 	.select-wrapper:before {
@@ -2208,15 +2230,15 @@ input, select, textarea {
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #76cdc7;
-		border-color: #76cdc7;
+		background-color: #47958f;
+		border-color: #47958f;
 		color: #ffffff;
 	}
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #76cdc7;
-		box-shadow: 0 0 0 1px #76cdc7;
+		border-color: #47958f;
+		box-shadow: 0 0 0 1px #47958f;
 	}
 
 	::-webkit-input-placeholder {
@@ -2494,7 +2516,7 @@ input, select, textarea {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
-			justify-content: center;
+			justify-content: left;
 			width: 100%;
 			margin-left: 0;
 		}
@@ -2690,7 +2712,7 @@ input, select, textarea {
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: center;
+		text-align: left;
 	}
 
 	header p {
@@ -2728,7 +2750,7 @@ input, select, textarea {
 
 	header.major {
 		margin: 0 0 2.5em 0;
-		text-align: center;
+		text-align: left;
 	}
 
 		header.major:after {
@@ -2954,7 +2976,7 @@ input, select, textarea {
 				}
 
 		.wrapper.style1 {
-			background-color: #76cdc7;
+			background-color: #47958f;
 			color: #d1e5f9;
 		}
 
@@ -2991,7 +3013,7 @@ input, select, textarea {
 				.wrapper.style1 .button.primary {
 					box-shadow: none;
 					background-color: #ffffff;
-					color: #76cdc7 !important;
+					color: #47958f !important;
 				}
 
 			.wrapper.style1 label {
@@ -3036,7 +3058,7 @@ input, select, textarea {
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background-color: #ffffff;
 				border-color: #ffffff;
-				color: #76cdc7;
+				color: #47958f;
 			}
 
 			.wrapper.style1 input[type="checkbox"]:focus + label:before,
@@ -3070,7 +3092,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 .image {
-				box-shadow: 0 0 0 4px #76cdc7, 0 0 0 5px rgba(255, 255, 255, 0.25);
+				box-shadow: 0 0 0 4px #47958f, 0 0 0 5px rgba(255, 255, 255, 0.25);
 			}
 
 				.wrapper.style1 .image.phone {
@@ -3187,7 +3209,7 @@ input, select, textarea {
 				.wrapper.style2 button.primary,
 				.wrapper.style2 .button.primary {
 					box-shadow: none;
-					background-color: #76cdc7;
+					background-color: #47958f;
 					color: #ffffff !important;
 				}
 
@@ -3226,8 +3248,8 @@ input, select, textarea {
 				.wrapper.style2 input[type="email"]:focus,
 				.wrapper.style2 select:focus,
 				.wrapper.style2 textarea:focus {
-					border-color: #76cdc7;
-					box-shadow: 0 0 0 1px #76cdc7;
+					border-color: #47958f;
+					box-shadow: 0 0 0 1px #47958f;
 				}
 
 			.wrapper.style2 .select-wrapper:before {
@@ -3247,15 +3269,15 @@ input, select, textarea {
 
 			.wrapper.style2 input[type="checkbox"]:checked + label:before,
 			.wrapper.style2 input[type="radio"]:checked + label:before {
-				background-color: #76cdc7;
-				border-color: #76cdc7;
+				background-color: #47958f;
+				border-color: #47958f;
 				color: #ffffff;
 			}
 
 			.wrapper.style2 input[type="checkbox"]:focus + label:before,
 			.wrapper.style2 input[type="radio"]:focus + label:before {
-				border-color: #76cdc7;
-				box-shadow: 0 0 0 1px #76cdc7;
+				border-color: #47958f;
+				box-shadow: 0 0 0 1px #47958f;
 			}
 
 			.wrapper.style2 ::-webkit-input-placeholder {
@@ -3340,7 +3362,7 @@ input, select, textarea {
 			}
 
 				.wrapper.style2 a:hover {
-					color: #76cdc7;
+					color: #47958f;
 				}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
@@ -3401,7 +3423,7 @@ input, select, textarea {
 				.wrapper.style3 button.primary,
 				.wrapper.style3 .button.primary {
 					box-shadow: none;
-					background-color: #76cdc7;
+					background-color: #47958f;
 					color: #ffffff !important;
 				}
 
@@ -3440,8 +3462,8 @@ input, select, textarea {
 				.wrapper.style3 input[type="email"]:focus,
 				.wrapper.style3 select:focus,
 				.wrapper.style3 textarea:focus {
-					border-color: #76cdc7;
-					box-shadow: 0 0 0 1px #76cdc7;
+					border-color: #47958f;
+					box-shadow: 0 0 0 1px #47958f;
 				}
 
 			.wrapper.style3 .select-wrapper:before {
@@ -3461,15 +3483,15 @@ input, select, textarea {
 
 			.wrapper.style3 input[type="checkbox"]:checked + label:before,
 			.wrapper.style3 input[type="radio"]:checked + label:before {
-				background-color: #76cdc7;
-				border-color: #76cdc7;
+				background-color: #47958f;
+				border-color: #47958f;
 				color: #ffffff;
 			}
 
 			.wrapper.style3 input[type="checkbox"]:focus + label:before,
 			.wrapper.style3 input[type="radio"]:focus + label:before {
-				border-color: #76cdc7;
-				box-shadow: 0 0 0 1px #76cdc7;
+				border-color: #47958f;
+				box-shadow: 0 0 0 1px #47958f;
 			}
 
 			.wrapper.style3 ::-webkit-input-placeholder {
@@ -3554,7 +3576,7 @@ input, select, textarea {
 			}
 
 				.wrapper.style3 a:hover {
-					color: #76cdc7;
+					color: #47958f;
 				}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
@@ -3625,9 +3647,9 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		background-color: #76cdc7;
-		color: #d1e5f9;
-		padding: 4.5em 0 2.5em 0 ;
+		background-color: #47958f;
+		color: whitesmoke;
+		padding: 4.5em 2em 2.5em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3681,7 +3703,7 @@ input, select, textarea {
 			#header .button.primary {
 				box-shadow: none;
 				background-color: #ffffff;
-				color: #76cdc7 !important;
+				color: #47958f !important;
 			}
 
 		#header label {
@@ -3726,7 +3748,7 @@ input, select, textarea {
 		#header input[type="radio"]:checked + label:before {
 			background-color: #ffffff;
 			border-color: #ffffff;
-			color: #76cdc7;
+			color: #47958f;
 		}
 
 		#header input[type="checkbox"]:focus + label:before,
@@ -3760,7 +3782,7 @@ input, select, textarea {
 		}
 
 		#header .image {
-			box-shadow: 0 0 0 4px #76cdc7, 0 0 0 5px rgba(255, 255, 255, 0.25);
+			box-shadow: 0 0 0 4px #47958f, 0 0 0 5px rgba(255, 255, 255, 0.25);
 		}
 
 			#header .image.phone {
@@ -4106,7 +4128,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: #76cdc7;
+				color: #47958f;
 			}
 
 		#footer strong, #footer b {
