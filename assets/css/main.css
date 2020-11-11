@@ -71,6 +71,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* CUSTOM */
+.p__left-aligned {
+	text-align: left;
+}
+
 /* Basic */
 
 	@-ms-viewport {
