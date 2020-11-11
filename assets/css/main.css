@@ -72,17 +72,35 @@ input, select, textarea {
 }
 
 /* CUSTOM */
-.p__left-aligned {
-	text-align: left;
-}
 
-.gif {
-	display: block;
-	margin-right: 3em;
+.header-demo {
+	width: 43em;
 }
 
 .gif__vislit {
 	height: 15em;
+}
+
+.three-column {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: safe;
+}
+
+.first-column {
+	margin-right: 1em;
+}
+
+.second-column {
+	margin-right: 1em;
+}
+
+.third-column {
+	margin-right: 1em;
+}
+
+.column {
+	flex-basis: 15em;
 }
 
 /* Basic */
@@ -2494,7 +2512,7 @@ input, select, textarea {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
-			justify-content: center;
+			justify-content: left;
 			width: 100%;
 			margin-left: 0;
 		}
@@ -3627,7 +3645,7 @@ input, select, textarea {
 	#header {
 		background-color: #47958f;
 		color: #d1e5f9;
-		padding: 4.5em 0 2.5em 0 ;
+		padding: 4.5em 2em 2.5em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
