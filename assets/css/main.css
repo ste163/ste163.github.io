@@ -4005,7 +4005,7 @@ input, select, textarea {
 				#header .image {
 					font-size: 0.8em;
 					width: 15em;
-					max-width: 20vw;
+					/* max-width: 20vw; */
 				}
 
 					#header .image .inner, #header .image:before, #header .image:after {
