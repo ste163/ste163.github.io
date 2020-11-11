@@ -76,6 +76,15 @@ input, select, textarea {
 	text-align: left;
 }
 
+.gif {
+	display: block;
+	margin-right: 3em;
+}
+
+.gif__vislit {
+	height: 15em;
+}
+
 /* Basic */
 
 	@-ms-viewport {
