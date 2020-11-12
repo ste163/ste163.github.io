@@ -73,6 +73,22 @@ input, select, textarea {
 
 /* CUSTOM */
 
+.h2 {
+	margin-bottom: 0.5em;
+}
+
+.h3 {
+	margin-bottom: 0.5em;
+}
+
+.h4 {
+	margin-bottom: 0.5em;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
 .header-demo {
 	width: 43em;
 }
@@ -194,7 +210,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		text-decoration: none;
+		text-decoration: underline;
 		border-bottom: dotted 1px;
 	}
 
