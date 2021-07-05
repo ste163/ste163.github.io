@@ -1,1 +1,2 @@
-# ste163.github.io - Portfolio
+# Portfolio
+Make changes and push to `main` and the site is live!
