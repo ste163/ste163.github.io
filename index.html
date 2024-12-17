@@ -10,45 +10,50 @@
 	</head>
 	<style>
 		html {
-		font-family: 'Poppins', sans-serif;
-		color: rgb(236, 236, 236);
-		background-color: rgb(19, 30, 42);
+			font-family: 'Poppins', sans-serif;
+			color: rgb(236, 236, 236);
+			background: linear-gradient(to right, rgb(18, 31, 45), rgb(11, 40, 67));
+			overscroll-behavior: none;
 		}
 
 		body {
-		margin: 2em 1em 0em 3em;
+			margin: 2em 0.5em 0em 3em;
 		}
 
 		h1 {
-		font-weight: 900;
-		font-size: 3em;
-		margin:0;
+			font-weight: 900;
+			font-size: 3em;
+			margin:0;
 		}
 
 		main {
-		width: 70vw;
+			width: 70vw;
 		}
 
 		p {
-		margin-top: 0;
-		margin-bottom: 1em;
-		font-weight: 400;
-		font-size: 1.2em;
+			margin-top: 0;
+			margin-bottom: 1em;
+			font-weight: 400;
+			font-size: 1.2em;
 		}
 
 		a {
-		color: rgb(55, 233, 233);
+			color: rgb(55, 233, 233);
+		}
+
+		iframe {
+			margin-bottom: 2em;
 		}
 	</style>
 	<body>
 		<header id="header">
-			<h1>👋 Hi! I'm Sam</h1>
+			<h1>👋 Hi! I'm Sam.</h1>
 		</header>
 		<main>
 			<p>
-				I'm a software engineer, and the main developer of the open-source note-taking app
+				I'm a full stack software engineer, and the main developer of the open-source note-taking app
 				<a href="https://github.com/ste163/notes" target="_blank">Notes</a>,
-				which you can play around with live <a href="https://ste163.github.io/notes/" target="_blank">on Github</a>. Mostly, I program with React, Node, and TypeScript.
+				which you can play around with live <a href="https://ste163.github.io/notes/" target="_blank">on Github</a> or down below! Mostly, I program with React, Node, and TypeScript.
 				I'm a firm believer in open-source software and data privacy.
 				I also love 80s horror movies, video games, books, and road-tripping in my CRV.
 			</p>
@@ -58,6 +63,12 @@
 				<a href="https://www.linkedin.com/in/st-edwards" class="icon brands fa-linkedin" target="_blank"><span>LinkedIn</a>
 				to see my more professional stuff.
 			</p>
+			<section>
+				<h2>Interactive demo for Notes</h2>
+				<p>Github repository: <a href="https://github.com/ste163/notes" target="_blank">Notes</a></p>
+				<p>Notes features a web frontend but is specifically designed as a downloadable desktop application.</p>
+				<iframe src="https://ste163.github.io/notes/" frameborder="0" width="100%" height="500"></iframe>
+			</section>
 		</main>
 	</body>
 </html>
